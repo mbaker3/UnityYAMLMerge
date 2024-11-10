@@ -19,9 +19,6 @@ prefab use "%programs%\YouFallbackMergeToolForPrefabsHere.exe" "%l" "%r" "%b" "%
 # Default fallbacks for unknown files. First tool found is used.
 #
 
-# Apple File Merge
-* use "/usr/bin/opendiff" %r %l -ancestor %b -merge %d
-
 # Beyond Compare
 * use "%programs%\Beyond Compare 4\bcomp.exe" "%r" "%l" "%b" "%d"
 * use "%programs%\Beyond Compare 3\bcomp.exe" "%r" "%l" "%b" "%d"
@@ -48,3 +45,6 @@ prefab use "%programs%\YouFallbackMergeToolForPrefabsHere.exe" "%l" "%r" "%b" "%
 * use "%programs%\SourceGear\Common\DiffMerge\sgdm.exe" --nosplash -m -t1="Incoming Changes"  -t2="Base" -t3="Working Copy" -r="%d" "%l" "%b" "%r"
 * use "%programs%/DiffMerge.app/Contents/MacOS/DiffMerge" --nosplash -m -t1="Incoming Changes"  -t2="Base" -t3="Working Copy" -r="%d" "%l" "%b" "%r"
 * use "%programs%/Utilities/DiffMerge.app/Contents/MacOS/DiffMerge" --nosplash -m -t1="Incoming Changes"  -t2="Base" -t3="Working Copy" -r="%d" "%l" "%b" "%r"
+
+# Apple File Merge
+* use "/usr/bin/opendiff" %r %l -ancestor %b -merge %d
