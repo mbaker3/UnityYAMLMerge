@@ -1,6 +1,8 @@
 # UnityYAMLMerge
 
-Configured copy of UnityYAMLMerge that falls back to my preferred diff apps and avoids having to change paths on each new version of Unity. Basically just moving Apple File Merge to the bottom since it comes built-in. If you've installed a standalone/paid diff app you'd probably prefer using that...
+A configured copy of UnityYAMLMerge that falls back to my preferred diff apps and avoids having to change paths on each new version of Unity. Basically just moving Apple File Merge to the bottom since it comes built-in. If you've installed a standalone/paid diff app you'd probably prefer using that...
+
+*NOTE:* If you're using Rider for development you may want to consider skipping this repo. Rider's Unity integration automatically resolves a version of and runs UnityYAMLMerge when merging YAML files. You also get some added bonuses like project context and syntactic highlighting. If you want to go this route check out [these instructions](https://gist.github.com/mbaker3/a6617d8c42e9dcdaa11e0e83e490139c).
 
 Clone this repo and follow the configuration steps below to setup each git client.
 
