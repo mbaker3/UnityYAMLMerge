@@ -19,6 +19,10 @@ prefab use "%programs%\YouFallbackMergeToolForPrefabsHere.exe" "%l" "%r" "%b" "%
 # Default fallbacks for unknown files. First tool found is used.
 #
 
+# Rider
+* use "%programs%/Rider.app/Contents/MacOS/rider" merge %l %r %b %d
+# TODO: Windows
+
 # Beyond Compare
 * use "%programs%\Beyond Compare 4\bcomp.exe" "%r" "%l" "%b" "%d"
 * use "%programs%\Beyond Compare 3\bcomp.exe" "%r" "%l" "%b" "%d"
